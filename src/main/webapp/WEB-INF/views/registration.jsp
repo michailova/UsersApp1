@@ -114,31 +114,7 @@
 					</div>
 				</div>
 			</div>
-
-
-<%--			<div class="group">--%>
-<%--				<div class="form-group col-md-12">--%>
-<%--				<select name="office">--%>
-<%--					<label class="col-md-3 control-lable" >office</label>--%>
-<%--					<% for(Office office: (List<Office>)request.getAttribute("offices")) { %>--%>
-<%--					<option value='<%=office.getId()%>'><%=office.getId() + " - " + office.getTitle()%></option>--%>
-<%--					<%}%>--%>
-<%--				</select>--%>
-<%--			</div>--%>
-<%--			</div>--%>
-
-
-<%--			<div class="row">--%>
-<%--				<div class="form-group col-md-12">--%>
-<%--					<label class="col-md-3 control-lable" for="office">Office</label>--%>
-<%--					<div class="col-md-7">--%>
-<%--						<form:select path="office" items="${offices}" multiple="false" itemValue="id" itemLabel="type" class="form-control input-sm" />--%>
-<%--						<div class="has-error">--%>
-<%--							<form:errors path="office" class="help-inline"/>--%>
-<%--						</div>--%>
-<%--					</div>--%>
-<%--				</div>--%>
-<%--			</div>--%>
+			
 
 			<div class="row">
 				<div class="form-actions floatRight">
